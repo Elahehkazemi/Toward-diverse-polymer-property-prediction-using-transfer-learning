@@ -8,18 +8,30 @@ The prediction of mechanical and thermal properties of polymers is a critical as
 
 ## Repository Structure
 
-1. **Cp_Prediction_Model.ipynb**:
+1. **PCA_Analysis.ipynb:**
+
+   
+This notebook is dedicated to performing Principal Component Analysis (PCA) on the dataset. It includes visualization of the principal components (PC1 vs. PC2, PC1 vs. PC3, etc.), which helps to understand the variance in the data and dimensionality reduction. PCA is especially useful for analyzing the relationships between various polymer properties.
+
+
+2. **Cp_Prediction_Model.ipynb:**
+   
 This notebook contains the neural network model used to predict the heat capacity at constant pressure (Cₚ) of linear polymers. It also explores the impact of various loss functions on model performance, including individual and combined loss functions.
 
-2. **Transfer_Learning_Models.ipynb**:
+3. **Transfer_Learning_Models.ipynb:**
+
+   
 This notebook demonstrates the transfer learning process. The pre-trained Cₚ prediction model is adapted to predict the following four additional polymer properties:
 Specific heat capacity (Cᵥ)
 Shear modulus
 Flexural stress strength 
 Dynamic viscosity
 
-3. **Data Files**:
+4. **Data Files:**
+
+   
 Datasets used for training and validation are included in the data/ folder, with a detailed description of each file's contents.
+
 
 ## How to use
 - Clone the repository.
